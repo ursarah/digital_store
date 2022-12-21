@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    outline: 1px solid red;
+}
+header{
+    display: flex;
+    background-color: white;
+}
+header figure{
+    padding: 20px 100px;
+}
+main{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+    background-color: #B5B6F2;
+    background-image: linear-gradient(#B5B6F2, #EFEFFF);
+}
+form{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+figure{
+    display: flex;
+}
+img#esquerda{
+    align-self: flex-start;
+}
+img#direita{
+    align-self: flex-end;
+}
+footer{
+    height: 800px;
+    background-color: black;
+}
