@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
     outline: 1px solid red;
 }
 header{
@@ -11,26 +12,32 @@ header{
 header figure{
     padding: 20px 100px;
 }
-main{
-    
+main{    
     display: flex;
     justify-content: space-around;
     height: 800px;
     background-color: #B5B6F2;
     background-image: linear-gradient(#B5B6F2, #EFEFFF);
 }
-form{
+.container{
+    align-self: center;
     width: 500px;
-    height: 500px;
+    height: 400px;
     background-color: white;
+    padding: 30px;
+    line-height: 40px;
 }
+.container-form{
+    display: flex;
+    flex-direction: column;
+    }
 figure{
     display: flex;
 }
-img#esquerda{
+img.esquerda{
     align-self: flex-start;
 }
-img#direita{
+img.direita{
     align-self: flex-end;
 }
 footer{
