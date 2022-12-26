@@ -100,3 +100,26 @@ footer{
     padding: 20px 0;
     font-size: 12px;
 }
+
+@media (max-width: 1300px){
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    main figure{
+        display: none;
+    }
+    footer{
+        height: 900px;
+    }
+    .footer-logo{
+        padding-bottom: 50px;
+    }
+    .container-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contatos{
+        padding-top: 50px;
+    }
+}
