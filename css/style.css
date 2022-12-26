@@ -4,8 +4,7 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
-    list-style: none        ;
-    outline: 1px solid red;
+    list-style: none;
 }
 header{
     display: flex;
@@ -73,16 +72,30 @@ img.direita{
     align-self: flex-end;
 }
 footer{
-    height: 400px;
+    height: 390px;
     background-color: #1F1F1F; 
     padding: 0 100px;
 }
 .container-footer{
     display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid white;
     padding: 50px 0;  
-    
 }
-.container-footer p, .container-footer a{
+.container-footer figure img{
+    padding: 30px 20px 0 0;
+}
+.container-footer li{
+    padding-bottom: 10px;
+}
+.container-footer h4, .footer-logo img{
+    padding-bottom: 30px;
+}
+.container-footer p, .container-footer h4, .container-footer a, .footer-copy{
     color: white;
+}
+.footer-copy{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
 }
