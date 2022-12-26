@@ -71,6 +71,7 @@ img.esquerda{
 img.direita{
     align-self: flex-end;
 }
+
 footer{
     height: 390px;
     background-color: #1F1F1F; 
