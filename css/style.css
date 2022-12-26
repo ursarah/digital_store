@@ -3,6 +3,8 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
+    box-sizing: border-box;
+    list-style: none        ;
     outline: 1px solid red;
 }
 header{
@@ -15,22 +17,52 @@ header figure{
 main{    
     display: flex;
     justify-content: space-around;
-    height: 800px;
+    height: 100vh;
     background-color: #B5B6F2;
     background-image: linear-gradient(#B5B6F2, #EFEFFF);
 }
-.container{
+.container-main{
     align-self: center;
     width: 500px;
-    height: 400px;
+    height: 450px;
     background-color: white;
     padding: 30px;
     line-height: 40px;
 }
-.container-form{
+.container-form label{
+    font-weight: 700;
+    font-size: 12px;
+}
+.container-form input, .container-form button{
+    padding-left: 20px;
+    background-color: #e6e5e5;
+    height: 40px;
+    width: 440px;
+    border-radius: 10px;
+    border: none;
+}
+.container-form a{
+    font-weight: 700;
+    font-size: 10px;
+    text-decoration: underline;
+}
+.container-form button{
+    cursor: pointer;
+    background-color: #C92071;
+}
+.container-form button a{
+    color: #F5F5F5;
+    font-size: 16px;
+    text-decoration: none;
+}
+.container-sociais{
     display: flex;
-    flex-direction: column;
-    }
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.container-sociais a{
+    text-align: center;
+}
 figure{
     display: flex;
 }
@@ -41,6 +73,15 @@ img.direita{
     align-self: flex-end;
 }
 footer{
-    height: 800px;
-    background-color: black;
+    height: 400px;
+    background-color: #1F1F1F; 
+    padding: 0 100px;
+}
+.container-footer{
+    display: flex;
+    border-bottom: 1px solid white;
+    padding: 50px 0;  
+}
+.container-footer p, .container-footer a{
+    color: white;
 }
