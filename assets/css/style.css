@@ -31,12 +31,10 @@ main{
     width: 100%;
     border-radius: 10px;
     border: none;
+    padding-left: 10px;
 }
 .container-main a{
     text-decoration: underline;
-}
-.container-form input::placeholder{
-    padding-left: 20px;
 }
 .form-button{
     display: block;
