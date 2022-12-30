@@ -1,0 +1,8 @@
+.container-main{
+    align-self: center;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    padding: 30px;
+    line-height: 40px;
+}

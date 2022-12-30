@@ -5,6 +5,7 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
+    /* outline: 1px solid red; */
 }
 header{
     display: flex;
@@ -20,39 +21,43 @@ main{
     background-color: #B5B6F2;
     background-image: linear-gradient(#B5B6F2, #EFEFFF);
 }
-.container-main{
-    align-self: center;
-    width: 500px;
-    height: 450px;
-    background-color: white;
-    padding: 30px;
-    line-height: 40px;
-}
 .container-form label{
     font-weight: 700;
     font-size: 12px;
 }
-.container-form input, .container-form button{
-    padding-left: 20px;
+.container-form input{
     background-color: #e6e5e5;
     height: 40px;
-    width: 440px;
+    width: 100%;
     border-radius: 10px;
     border: none;
 }
-.container-form a{
-    font-weight: 700;
-    font-size: 10px;
+.container-main a{
     text-decoration: underline;
 }
-.container-form button{
-    cursor: pointer;
-    background-color: #C92071;
+.container-form input::placeholder{
+    padding-left: 20px;
 }
-.container-form button a{
-    color: #F5F5F5;
-    font-size: 16px;
+.form-button{
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #C92071;    
     text-decoration: none;
+}
+.form-button button{
+    color: #F5F5F5;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.form-button:hover{
+    background-color: #fa6bb0;   
+    transition: .3s;
 }
 .container-sociais{
     display: flex;
@@ -73,15 +78,16 @@ img.direita{
 }
 
 footer{
-    height: 390px;
-    background-color: #1F1F1F; 
-    padding: 0 100px;
+    max-height: 100vh;
+    background-color: #1F1F1F;     
 }
 .container-footer{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid white;
     padding: 50px 0;  
+    margin: auto;
+    max-width: 1500px;
 }
 .container-footer figure img{
     padding: 30px 20px 0 0;
@@ -90,7 +96,7 @@ footer{
     padding-bottom: 10px;
 }
 .container-footer h4, .footer-logo img{
-    padding-bottom: 30px;
+    padding: 30px 0;
 }
 .container-footer p, .container-footer h4, .container-footer a, .footer-copy{
     color: white;
@@ -101,7 +107,10 @@ footer{
     font-size: 12px;
 }
 
-@media (max-width: 1300px){
+@media screen and (max-width: 1520px){
+    body{
+        width: 100vw;
+    }
     header{
         display: flex;
         justify-content: center;
@@ -110,16 +119,19 @@ footer{
         display: none;
     }
     footer{
-        height: 900px;
+        height: 100vh;
     }
     .footer-logo{
         padding-bottom: 50px;
     }
     .container-footer{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;     
+        margin: auto;
+        max-width: 90vw;
     }
     .contatos{
         padding-top: 50px;
     }
+    
 }
