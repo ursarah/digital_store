@@ -1,7 +1,7 @@
-<h1>Projeto de conclusão de modulo</h1>
-<h2>Site da Digital Store</h2>
+# Projeto de conclusão de modulo
+## Site da Digital Store
 <p>Um modelo de site da digital store, pagina virtual da Drip Store</p>
 <h3>Paginas:</h3>
-<a href="https://github.com/ursarah/digital_store">Codigos no GitHub</a><br>
+Codigos no GitHub: <https://github.com/ursarah/digital_store> <br>
 <a href="https://ursarah.github.io/digital_store/email.html">Criar conta</a>
 <br><a href="https://ursarah.github.io/digital_store/login.html">Login</a>
