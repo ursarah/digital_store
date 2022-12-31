@@ -1,5 +1,5 @@
 > # ✔️ Projeto de conclusão de modulo
-
+<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 <br>
 
 > ### 📋 Sobre o Projeto
