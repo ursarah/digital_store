@@ -65,7 +65,7 @@ main{
     padding: 20px 0;
 }
 .container-sociais a{
-    text-align: center;
+    padding-left: 10px;
 }
 figure{
     display: flex;
@@ -134,4 +134,11 @@ footer{
         padding-top: 50px;
     }
     
+}
+
+@media screen and (max-width: 536px){
+    main .container-main{
+        margin: auto;
+        width: 90%;
+    }
 }
