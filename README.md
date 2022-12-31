@@ -3,4 +3,4 @@
 <p>Um modelo de site da digital store, pagina virtual da Drip Store</p>
 <h3>Paginas:</h3>
 Criar conta: https://ursarah.github.io/digital_store/email.html
-<br>Login: https://ursarah.github.io/digital_store/login.html
+<br>login: https://ursarah.github.io/digital_store/login.html
