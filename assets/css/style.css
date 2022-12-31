@@ -21,6 +21,10 @@ main{
     background-color: #B5B6F2;
     background-image: linear-gradient(#B5B6F2, #EFEFFF);
 }
+
+.container-main a, footer a:hover{
+    text-decoration: underline;
+}
 .container-form label{
     font-weight: 700;
     font-size: 12px;
@@ -32,9 +36,6 @@ main{
     border-radius: 10px;
     border: none;
     padding-left: 10px;
-}
-.container-main a{
-    text-decoration: underline;
 }
 .form-button{
     display: block;
@@ -57,6 +58,7 @@ main{
     background-color: #fa6bb0;   
     transition: .3s;
 }
+
 .container-sociais{
     display: flex;
     justify-content: space-evenly;
