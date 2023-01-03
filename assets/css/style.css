@@ -45,6 +45,7 @@ main{
     border-radius: 10px;
     background-color: #C92071;    
     text-decoration: none;
+    margin-top: 20px;
 }
 .form-button button{
     color: #F5F5F5;
@@ -61,11 +62,11 @@ main{
 
 .container-sociais{
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px 0;
+    justify-content: center;
+    padding-top: 30px;
 }
 .container-sociais a{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 figure{
     display: flex;
