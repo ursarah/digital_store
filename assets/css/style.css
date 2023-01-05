@@ -21,9 +21,15 @@ main{
     background-color: #B5B6F2;
     background-image: linear-gradient(#B5B6F2, #EFEFFF);
 }
-
+figure, .section-sociais{
+    display: flex;
+}
 .container-main a, footer a:hover{
     text-decoration: underline;
+}
+section.container-main{
+    width: 100vw;
+    height: 100vh;
 }
 .container-form label{
     font-weight: 700;
@@ -69,9 +75,7 @@ main{
 .container-sociais a{
     margin-left: 20px;
 }
-figure, .section-sociais{
-    display: flex;
-}
+
 img.esquerda{
     align-self: flex-start;
 }

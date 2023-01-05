@@ -1,7 +1,7 @@
-.container-main{
+main section{
     align-self: center;
-    width: 40%;
-    height: 56%;
+    width: 600px;
+    height: 480px;
     background-color: white;
     padding: 30px;
     line-height: 40px;
