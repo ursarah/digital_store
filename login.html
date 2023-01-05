@@ -1,91 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/box-form-login.css">
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <title>Login | Drip Store</title>
-</head>
-<body>
-    <header>
-        <figure><img src="assets/images/logo-header.png" alt=""></figure>       
-    </header>
-    <main>        
-        <div class="container-main">
-            <div class="container-title">
-                <h1>Acesse sua conta</h1>
-                <p>Novo cliente? Então registre-se <a href="">aqui</a>.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/box-form-login.css">
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+        <title>Login | Drip Store</title>
+    </head>
+    <body>
+        <header>
+            <figure><img src="assets/images/logo-header.png" alt=""></figure>
+        </header>
+        <main>
+            <div class="container-main">
+                <div class="container-title">
+                    <h1>Acesse sua conta</h1>
+                    <p>Novo cliente? Então registre-se
+                        <a href="">aqui</a>.</p>
+                </div>
+                <div class="container-form">
+                    <form action="">
+                        <label for="login">Login*</label>
+                        <input
+                            type="login"
+                            name="login"
+                            id="login"
+                            placeholder="Insira seu login ou email"
+                            required="required">
+                        <label for="senha">Senha*</label>
+                        <input
+                            type="password"
+                            name="senha"
+                            id="senha"
+                            placeholder="Insira sua senha"
+                            required="required">
+                        <a href="">Esqueci minha senha</a>
+                        <a href="" class="form-button">
+                            <button>Acessar conta</button>
+                        </a>
+                    </form>
+                </div>
+                <div class="container-sociais">
+                    <p>Ou faça login com
+                        <a href=""><img src="assets/images/facebook.png" alt=""></a>
+                        <a href=""><img src="assets/images/gmail 1.png" alt=""></a>
+                    </p>
+                </div>
             </div>
-            <div class="container-form">
-                <form action="">
-                    <label for="login">Login*</label>
-                    <input type="login" name="login" id="login" placeholder="Insira seu login ou email" required>
-                    <label for="senha">Senha*</label>
-                    <input type="password" name="senha" id="senha" placeholder="Insira sua senha" required>
-                    <a href="">Esqueci minha senha</a>
-                    <a href="" class="form-button"><button>Acessar conta</button></a>
-                </form>
-            </div>
-            <div class="container-sociais">
-                <p>Ou faça login com
-                <a href=""><img src="assets/images/facebook.png" alt=""></a>
-                <a href=""><img src="assets/images/gmail 1.png" alt=""></a>
-                </p>
-            </div>
-        </div>
-        <figure>
-            <img class="esquerda" src="assets/images/tenis_esquerda.png" alt="">
-            <img class="direita" src="assets/images/tenis_direita.png" alt="">
-        </figure>        
-    </main>
+            <figure>
+                <img class="esquerda" src="assets/images/tenis_esquerda.png" alt="">
+                <img class="direita" src="assets/images/tenis_direita.png" alt="">
+            </figure>
+        </main>
 
-    <footer>
-        <div class="container-footer">
-            <div class="footer-logo">
-                <img src="assets/images/logo-footer.png" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Ad est, debitis temporibus pariatur laboriosam sint impedit cumque <br> quae voluptas corrupti possimus velit incidunt.</p>
-                <figure>
-                    <img src="assets/images/face.png" alt="">
-                    <img src="assets/images/insta.png" alt="">
-                    <img src="assets/images/twitter.png" alt="">
-                </figure>
-            </div>
-            <div>
-                <h4>Informação</h4>
-                <ul>
-                    <li><a href="">Sobre Drip Store</a></li>
-                    <li><a href="">Segurança</a></li>
-                    <li><a href="">Wishlist</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Trabalhe conosco</a></li>
-                    <li><a href="">Meus pedidos</a></li>
-                </ul>
-            </div>
-            <div>
-                <h4>Categorias</h4>
-                <ul>
-                    <li><a href="">Camisetas</a></li>
-                    <li><a href="">Calças</a></li>
-                    <li><a href="">Bonés</a></li>
-                    <li><a href="">Headphones</a></li>
-                    <li><a href="">Tênis</a></li>
-                </ul>
-            </div>
-            <div class="contatos">
-                <h4>Contato</h4>
-                <p>Av. Santos Dumont, 1510 - 1 andar - Aldeota, <br> Fortaleza - CE, 60150-161</p>
-                <p>(85) 3051-3411</p>
-            </div>
-        </div>
-        <div class="footer-copy">
-            <p>@ 2022 Digital College</p>
-        </div>
-    </footer>
-</body>
+        <footer>
+            <section class="footer-section">
+                <div class="section-logo">
+                    <img src="assets/images/logo-footer.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        <br>
+                        Ad est, debitis temporibus pariatur laboriosam sint impedit cumque
+                        <br>
+                        quae voluptas corrupti possimus velit incidunt.</p>
+                    <nav>
+                        <ul class="section-sociais">
+                            <li><a href=""><img src="assets/images/face.png" alt=""></a></li>
+                            <li><a href=""><img src="assets/images/insta.png" alt=""></a></li>
+                            <li><a href=""><img src="assets/images/twitter.png" alt=""></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <nav>
+                    <h4>Informação</h4>
+                    <ul>
+                        <li>
+                            <a href="">Sobre Drip Store</a>
+                        </li>
+                        <li>
+                            <a href="">Segurança</a>
+                        </li>
+                        <li>
+                            <a href="">Wishlist</a>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                        <li>
+                            <a href="">Trabalhe conosco</a>
+                        </li>
+                        <li>
+                            <a href="">Meus pedidos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <h4>Categorias</h4>
+                    <ul>
+                        <li>
+                            <a href="">Camisetas</a>
+                        </li>
+                        <li>
+                            <a href="">Calças</a>
+                        </li>
+                        <li>
+                            <a href="">Bonés</a>
+                        </li>
+                        <li>
+                            <a href="">Headphones</a>
+                        </li>
+                        <li>
+                            <a href="">Tênis</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="contatos">
+                    <h4>Contato</h4>
+                    <p>Av. Santos Dumont, 1510 - 1 andar - Aldeota,<br>
+                        Fortaleza - CE,<br> 60150-161</p>
+                    <p>(85) 3051-3411</p>
+                </div>
+            </section>
+            <p class="footer-copy">@ 2022 Digital College</p>
+        </footer>
+    </body>
 </html>
